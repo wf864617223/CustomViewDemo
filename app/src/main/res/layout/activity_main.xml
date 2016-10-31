@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.hb.rimi.customviewdemo.widget.NullDataView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:nulldataview_border_space="10dp"
+            app:nulldataview_top_space="10dp">
+
+        </com.hb.rimi.customviewdemo.widget.NullDataView>
+
+        <com.hb.rimi.customviewdemo.widget.ImageSelectView
+            android:id="@+id/isv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:imageselect_hspace="20dp"
+            app:imageselect_vspace="20dp"></com.hb.rimi.customviewdemo.widget.ImageSelectView>
+
+        <com.hb.rimi.customviewdemo.widget.FourCornerView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:background="#dbdfe4">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#bf3838"
+                android:text="0" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#6fb432"
+                android:text="1" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#0d1ce2"
+                android:text="2" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:background="#e9d30b"
+                android:text="3" />
+        </com.hb.rimi.customviewdemo.widget.FourCornerView>
+
+        <com.hb.rimi.customviewdemo.widget.FlowLayoutView
+            android:id="@+id/flv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.hb.rimi.customviewdemo.widget.FlowLayoutView>
+    </LinearLayout>
+</ScrollView>

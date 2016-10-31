@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomViewDemo</string>
+    <string name="no_data_notice">暂无数据，点击刷新</string>
+</resources>
